@@ -1,0 +1,101 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family:sans-serif;	
+	
+	
+	color: 	white;
+	font-weight: 	bolder;	
+}
+
+
+.formBox{
+margin-top: 90px;
+padding: 	50px;
+
+}
+
+.formBox h1
+
+{
+	
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+	text-transform:uppercase;	
+	text-align: center;	
+	font-size: 40px;
+	margin-bottom: 50px;
+	font-family:arial;
+	font-weight: bolder;
+	color: blue;
+}
+
+.inputBox{
+
+	margin-top: 40px;
+	position: relative;	
+	margin-bottom: 	40px;
+	
+
+}
+.inputText .fokkus {
+
+	position:absolute;	
+	top: -18px;
+	left: 0;
+	font-size: 16px;
+	color: blue	;
+	opacity: 1;
+	transition: .10s;
+}
+
+.inputText{
+
+	font-size: 	24px;
+	font-family: verdana;
+	line-height:50px;
+	opacity: .5;
+	transition: .5s;
+}
+
+.focus .inputText{
+
+	
+	transform: translateY(-30px);
+	font-size: 	18px;
+	color: #00bcd4;
+	transition: .5s;
+	opacity: 1;
+}
+
+.input
+{
+
+	font-size: 	24px;
+	border: 	none;
+	outline: 	none;	
+	background-color: 	transparent;	
+	width: 	100%;
+	height: 50px;
+	border-bottom: 	2px solid rgba(0,0,0, .5) ;
+}
+
+
+textarea
+{
+	width: 100%;
+	height: 50px;
+}
+
+.button{
+
+	border: none;	
+	outline: none;	
+	height: 	50px;
+	color: #fff;
+	width: 	100%;
+	background-color:blue;
+	font-size: 24px;
+	border-radius: 	10px;
+}
